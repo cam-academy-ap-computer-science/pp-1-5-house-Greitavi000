@@ -1,0 +1,33 @@
+Graded 9/18 by Mark Congdon
+
+Total Score:		23/25
+
+Compiles and Runs:	15/15
+Correct Output:		5/6
+Consistent Style:	1/2
+Efficiency:			2/2
+
+Good work!
+
+You did not have blank lines between the first and second 
+verses of the song, so I took off one point for that.
+
+Your indentation jumps around.  Consistent indentation is
+really important for debugging and code readability, so I
+took off one point for that.
+
+For future projects, you will want to start adding comments.
+Everybody does comments slightly differently, but at a minimum
+it would have been good to have a comment for the set of
+methods that did the verses, and a comment for the set of
+methods that did the individual lines within the verses.
+
+You did a good job calling Message() at the end of Message2().
+That really helps with efficiency.  You could have gone even
+farther with that concept.  Home() always follows Malt(), so
+you could have put Home() at the end of Malt().  You then could
+have put Malt() at the end of Rat(), because it always follows
+Rat(), and so on.  That would have made a more obvious
+structure and efficiency to your program.  No points off for
+that... just something to keep in mind for the future.
+
